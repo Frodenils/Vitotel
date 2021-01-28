@@ -98,8 +98,8 @@ nav li {
 
 nav a, nav span {
   display: inline-block;
-  font-size: 2rem;
-  height: 3rem;
+  font-size: 1;
+  height: 1;
   line-height: 1.7;
   text-transform: uppercase;
   text-decoration: none;
