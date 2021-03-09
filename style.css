@@ -7,7 +7,7 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: #83ddb7;
+  background-color: #CBDFBD;
 }
 
 body {
@@ -56,12 +56,12 @@ header {
 }
 
 body > * {
-  background-color: rgb(153, 136, 73);
+  background-color: #F6F4D2;
   padding: 1%;
 }
 
 main, header, nav, article, aside, footer, section {
-  background-color: rgb(148, 131, 87);
+  background-color: #F6F4D2;
   padding: 1%;
 }
 
