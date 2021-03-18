@@ -3,15 +3,17 @@
 html, body {
   margin: 0;
   padding: 0;
+  height : 100%;
+   
 }
 
 html {
   font-size: 10px;
-  background-color: #CBDFBD;
+  background-color: #83ddb7;
 }
 
 body {
-  width: 70%;
+  width: 90%;
   min-width: 800px;
   margin: 0 auto;
 }
@@ -56,12 +58,12 @@ header {
 }
 
 body > * {
-  background-color: #F6F4D2;
+  background-color: rgb(153, 136, 73);
   padding: 1%;
 }
 
 main, header, nav, article, aside, footer, section {
-  background-color: #F6F4D2;
+  background-color: rgb(148, 131, 87);
   padding: 1%;
 }
 
