@@ -100,20 +100,27 @@ nav {
 
 nav ul {
   padding: 0;
+  margin:0;
+  list-style-type:none;
   list-style-type: none;
   flex: 2;
   display: flex;
 }
 
 nav li {
+  margin-left:2px;
+  float:left;
   display: inline;
   text-align: center;
   flex: 1;
 }
 
-nav li:hover {
+  nav li:hover {
   background-color: rgb(108, 163, 71);
+  border:2px solid;
+  border-color:#696969 #DCDCDC #DCDCDC #696969;
 }
+
 
 
 nav a, nav span {
@@ -123,10 +130,9 @@ nav a, nav span {
   line-height: 1.7;
   text-transform: uppercase;
   text-decoration: none;
+  padding:5px;
   color: black;
-
 }
-
 /* || main layout */
 
 main {
@@ -157,3 +163,6 @@ footer {
   margin-top: 10px;
 }
 
+div {
+  text-align: center;
+}
