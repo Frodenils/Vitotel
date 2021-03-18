@@ -13,24 +13,31 @@ html {
 }
 
 body {
-  width: 90%;
-  min-width: 800px;
+  width: 100%;
+  min-width: 700px;
   margin: 0 auto;
 }
 
 /* || typography */
 
-h1, h2, h3 {
-  font-family: 'Arial', cursive;
+  h3 {
+  font-family: 'Verdana', cursive;
   color: #2a2a2a;
 }
 
-p, input, li {
+  input, li {
   font-family: 'Roboto Condensed', sans-serif;
   color: #2a2a2a;
 }
 
+p{
+  font-size:medium;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  
+}
+
 h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif , cursive;
   font-size: 4rem;
   text-align: center;
 }
@@ -38,6 +45,8 @@ h1 {
 h2 {
   font-size: 3rem;
   text-align: center;
+  font-family: Verdana;
+  color: #080c0b;
 }
 
 h3 {
@@ -55,14 +64,16 @@ header {
   margin-bottom: 10px;
   display: flex;
   flex-flow: row wrap;
+  background-color: rgb(189, 218, 122);
+  color: black;
 }
 
 body > * {
-  background-color: rgb(218, 185, 67);
+  background-color: rgb(164, 173, 112);
   padding: 1%;
 }
 
-main, header, nav, article, aside, footer, section {
+main, article, aside, footer, section {
   background-color: rgb(221, 236, 154);
   padding: 1%;
 }
@@ -79,9 +90,12 @@ header img {
 }
 
 nav {
-  height: 50px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  height: 70px;
   flex: 100%;
   display: flex;
+  background-color: rgb(189, 218, 122);
+  color: black;
 }
 
 nav ul {
@@ -96,6 +110,11 @@ nav li {
   text-align: center;
   flex: 1;
 }
+
+nav li:hover {
+  background-color: rgb(108, 163, 71);
+}
+
 
 nav a, nav span {
   display: inline-block;
@@ -137,3 +156,4 @@ aside img {
 footer {
   margin-top: 10px;
 }
+
