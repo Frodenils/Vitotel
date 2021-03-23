@@ -125,9 +125,10 @@ nav li {
 
 nav a, nav span {
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1.5rem;
   height: 3rem;
   line-height: 1.7;
+  font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
   padding:5px;
