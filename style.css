@@ -167,3 +167,26 @@ footer {
 div {
   text-align: center;
 }
+button a {
+  color:rgb(107, 12, 12);
+}
+.styled {
+  border: 1;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  background-color: #c5cfa1;
+
+}
+
+.styled:hover {
+  background-color: #8a9172;
+}
+
+.styled:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
